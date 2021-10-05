@@ -15,4 +15,9 @@ def node():
 def index():
     return render_template('index.html')
 
+# 127.0.0.1:5000/nodeimg
+@app.route('/nodeimg')
+def nodeimg():
+    return render_template('nodeimg.html')
+
 app.run()
